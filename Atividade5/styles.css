@@ -1,0 +1,27 @@
+body		{ background-color:black; font-family: Arial, Helvetica, sans-serif; letter-spacing:15px;		}
+.quadrado	{ width: 500px; height: 500px; background-color: mediumSeaGreen; line-height:500px;				}
+#q::before	{ content: "verde";																				}
+
+@media (max-width: 1920px)	{
+			.quadrado		{ background-color: gold;			}		#q::before { content: "amarelo";	}
+}
+
+@media (max-width: 1366px)	{
+			.quadrado		{ background-color: darkSlateBlue;	}		#q::before { content: "roxo";		}
+}
+
+@media (max-width: 1080px)	{
+			.quadrado		{ background-color: crimson;		}		#q::before { content: "vermelho";	}
+}
+
+@media (max-width: 1024px)	{
+			.quadrado		{ background-color: deepPink;		}		#q::before { content: "rosa";		}
+}
+
+@media (max-width:  768px)	{
+			.quadrado		{ background-color: darkOrange; 	}		#q::before { content: "laranja";	}
+}
+
+@media (max-width:  420px)	{
+			.quadrado		{ background-color: darkSlateGray;	}		#q::before { content: "cinza";		}
+}

@@ -1,0 +1,20 @@
+<HTML lang="pt-BR">
+	<HEAD>
+		<META charset="UTF-8">
+		<STYLE>
+			table	{ width:100%; border: 1px solid black; text-align:center; }
+			tr, td	{ border: 1px solid black; }
+		</STYLE>
+	</HEAD>
+
+	<BODY>
+		<STRONG>Altura (m):</STRONG>	<INPUT type="number" id="altura"><BR><BR>
+		<STRONG>Peso (kg):</STRONG>		<INPUT type="number" id="peso"><BR><BR>
+		<BUTTON onclick="IMC()">Calcular</BUTTON>
+		<TABLE>
+			<TR>	<TD>IMC</TD>		<TD>Classificação</TD>	<TD>Obesidade (Grau)</TD>	</TR>
+			<TR>	<TD id="r1">_</TD>	<TD id="r2">_</TD>		<TD id="r3">_</TD>			</TR>
+		</TABLE>
+		<SCRIPT src="js.js"></SCRIPT>
+	</BODY>
+</HTML>

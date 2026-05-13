@@ -1,0 +1,18 @@
+<HTML>
+	<HEAD>	<LINK rel="stylesheet" href="styles.css">	</HEAD>
+	<BODY>
+		<FORM class="formulario" name="formulario" id="formulario" onsubmit="return VerificarDados()">
+			<H1>Formulário Principal</H1>			<HR>
+			<I>Nome:</I>		<BR>	<INPUT		name="n"	size="40">						<BR><BR>
+			<I>E-mail:</I>		<BR>	<INPUT		name="e"	size="80" type="email">			<BR><BR>
+			<I>Comentário:</I>	<BR>	<TEXTAREA	name="c"	cols="36" rows="6"></TEXTAREA>	<BR><BR>
+			<CENTER>
+				<H2>Pesquisa:</H2><I>Primeira vez nesta página??</I>						<BR><BR>
+				<INPUT type="radio" name="pesquisa" id="sim"> Sim
+				<INPUT type="radio" name="pesquisa" id="nao"> Não 							<BR><BR>
+				<BUTTON>Enviar</BUTTON> <BUTTON type="button" onclick="Limpar()">Limpar</BUTTON>
+			</CENTER>
+		</FORM>
+		<SCRIPT src="js.js"></SCRIPT>
+	</BODY>
+</HTML>

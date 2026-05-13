@@ -1,0 +1,11 @@
+<HTML>
+	<BODY>
+		<P><STRONG>Texto: </STRONG> <INPUT id="input" oninput="AltCaixa()"></P>
+		<INPUT type="radio" checked="true" name="caixa" id="radio" oninput="AltCaixa()"> MAIÚSCULO
+		<INPUT type="radio" name="caixa" oninput="AltCaixa()"> minúsculo 
+		<SCRIPT>
+			const i = document.getElementById("input");
+			function AltCaixa() { i.value = (document.getElementById("radio").checked == true) ? i.value.toUpperCase() : i.value.toLowerCase(); }
+		</SCRIPT>
+	</BODY>
+</HTML>
